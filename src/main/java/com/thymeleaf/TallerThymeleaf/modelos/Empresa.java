@@ -2,6 +2,7 @@ package com.thymeleaf.TallerThymeleaf.modelos;
 
 import javax.persistence.*;
 
+
 @Entity
 @Table(name="Empresa")
 public class Empresa {
