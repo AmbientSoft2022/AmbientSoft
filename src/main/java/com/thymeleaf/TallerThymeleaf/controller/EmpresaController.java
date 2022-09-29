@@ -19,6 +19,7 @@ public class EmpresaController {
         @Autowired
         EmpresaService empresaService;
 
+
         @GetMapping ({"/","/VerEmpresas"})
         public String viewEmpresas(Model model, @ModelAttribute("mensaje") String mensaje){
             List<Empresa> listaEmpresas=empresaService.getAllEmpresas();
